@@ -2,7 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
 
+https://github.com/user-attachments/assets/27edbe54-52e7-498b-b709-23593c131bb3
+
 ## Development server
+
+At backend Project Run `npm i` then `npm start`.
+
+At Angular Project Run `npm i`.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
