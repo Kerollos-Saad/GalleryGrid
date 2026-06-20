@@ -42,4 +42,15 @@ export class UserPlacesComponent {
       })
     }
 
+    onRemovePlace(place: Place) {
+      const subscription = this.placesService.removeUserPlace(place).subscribe({
+        error: (error) => {
+          this.error.set(error.message);
+        },
+      });
+      
+      this.destroyRef.onDestroy(() => {
+        subscription.unsubscribe();
+      })
+    }
 }
